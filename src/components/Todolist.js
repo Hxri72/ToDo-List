@@ -19,7 +19,7 @@ const Todolist = ({toDos,setToDos,setEditToDo}) => {
     }
 
     const handleDelete = ({id}) => {
-        setToDos(toDos.filter((todo)=> todo.id !== id));
+        setToDos(toDos.filter((todo)=> todo.id !== id)); 
     }
   return (
     <div>
